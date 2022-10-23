@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="01.css"?>
+<!DOCTYPE Payroll SYSTEM "01.dtd">
+<Payroll>
+    <title>Hello User! Welcome to PayRoll information system.</title>
+    <signature>Indraneel-20BCE1154</signature>
+    <User1>
+        <name>Kane Williamson</name>
+        <EmployeeID>Emplyee ID:101</EmployeeID>
+        <Contact>Phone no: 98765543210</Contact>
+        <salary>Salary: 50000</salary>
+    </User1>
+    <User2>
+        <name>Steve Smith</name>
+        <EmployeeID>Emplyee ID:102</EmployeeID>
+        <Contact>Phone no: 5713658940</Contact>
+        <salary>Salary: 75000</salary>
+    </User2>
+    <User3>
+        <name>Virat Kohli</name>
+        <EmployeeID>Emplyee ID:103</EmployeeID>
+        <Contact>Phone no: 978765940</Contact>
+        <salary>Salary: 44000</salary>
+    </User3>
+    <User4>
+        <name>Joe Root</name>
+        <EmployeeID>Emplyee ID:104</EmployeeID>
+        <Contact>Phone no: 8563956480 </Contact>
+        <salary>Salary: 70000</salary>
+    </User4>
+
+</Payroll>

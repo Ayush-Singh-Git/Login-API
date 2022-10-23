@@ -1,0 +1,11 @@
+<!ELEMENT Payroll (title,signature,User1,User2,User3,User4)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT signature (#PCDATA)>
+<!ELEMENT User1 (name,EmployeeID,Contact,salary)>
+<!ELEMENT User2 (name,EmployeeID,Contact,salary)>
+<!ELEMENT User4 (name,EmployeeID,Contact,salary)>
+<!ELEMENT User3 (name,EmployeeID,Contact,salary)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ELEMENT Contact (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
