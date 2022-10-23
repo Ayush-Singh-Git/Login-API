@@ -1,0 +1,54 @@
+Payroll {
+  font-size: 80%;
+  margin: 0.5em;
+  font-family: Verdana;
+  display: block;
+}
+User1,
+User2,
+User3,
+User4 {
+  display: block;
+  border: 1px solid silver;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: whitesmoke;
+}
+title {
+  display: block;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
+  background-color: green;
+  color: white;
+}
+signature {
+  /* display: block; */
+  font-weight: bolder;
+  text-align: right;
+  font-size: 30px;
+  background-color: rgb(207, 6, 63);
+  color: white;
+}
+name,
+EmployeeID,
+Contact,
+salary {
+  display: block;
+  text-align: center;
+}
+name {
+  color: green;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 20px;
+}
+EmployeeID {
+  color: green;
+}
+Contact {
+  color: brown;
+}
+salary {
+  color: blue;
+}
