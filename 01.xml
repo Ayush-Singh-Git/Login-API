@@ -9,24 +9,35 @@
         <EmployeeID>Emplyee ID:101</EmployeeID>
         <Contact>Phone no: 98765543210</Contact>
         <salary>Salary: 50000</salary>
+        <ranking>1</ranking>
     </User1>
     <User2>
         <name>Steve Smith</name>
         <EmployeeID>Emplyee ID:102</EmployeeID>
         <Contact>Phone no: 5713658940</Contact>
         <salary>Salary: 75000</salary>
+        <ranking>4</ranking>
     </User2>
     <User3>
         <name>Virat Kohli</name>
         <EmployeeID>Emplyee ID:103</EmployeeID>
         <Contact>Phone no: 978765940</Contact>
         <salary>Salary: 44000</salary>
+        <ranking>2</ranking>
     </User3>
     <User4>
         <name>Joe Root</name>
         <EmployeeID>Emplyee ID:104</EmployeeID>
         <Contact>Phone no: 8563956480 </Contact>
         <salary>Salary: 70000</salary>
+        <ranking>3</ranking>
     </User4>
+    <User5>
+        <name>Babar Aazam</name>
+        <EmployeeID>Emplyee ID:110</EmployeeID>
+        <Contact>Phone no: 8523955670 </Contact>
+        <salary>Salary: 68000</salary>
+        <ranking>7</ranking>
+    </User5>
 
 </Payroll>
