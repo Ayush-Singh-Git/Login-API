@@ -1,4 +1,42 @@
-<html>  
+<html>
+    <?php 
+$host="localhost";
+$user="root";
+$password="chess.com";
+$db="demo";
+
+$connection=mysqli_connect($host,$user,$password) or die(mysqli_error());
+mysqli_select_db($connection,$db);
+if(isset($_POST['submit'])){
+if(isset($_POST['username'])){
+  $uname=$_POST['username'];
+  $pswd=$_POST['password'];
+
+  $sql="select * from loginform where user='".$uname."' and pswd='".$pswd."'";
+  // echo 
+  $result=mysqli_query($connection,$sql);
+  // if($result=mysqli_query($connection,$sql))
+  // {
+  //   // echo $result;
+  //   echo $uname.$pswd;}
+  
+  if($result){
+    $row=mysqli_num_rows($result);
+    if($row){
+      // echo "success";
+      // exit();
+      header("location:index.html");
+    }
+    else{
+      header("location:login.html");
+    }
+  }
+  else{
+    echo "incorrect";
+  }
+  
+}}
+?>
 <head>  
     <title>PHP login system</title>  
     <style>
